@@ -12,6 +12,8 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 /*=============header style start============ */
 .banner{
@@ -86,6 +88,39 @@ body{
 
 
 
+
+/*====================
+ coustomer review style start
+ =============== */
+ .section-title{
+     text-align: center;
+     font-size: 50px;
+     padding-bottom: 10%;
+ }
+.customer-review{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:50px
+}
+.customer img{
+    width: 30%;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.review-reating{
+    color: #FB8200 ;
+    padding: 10px 0;
+}
+.customer p{
+    text-align: justify;
+}
+.customer h2{
+    font-size: 24px;
+}
 /*=============
  footer style start
   ============= */
