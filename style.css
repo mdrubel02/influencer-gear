@@ -80,3 +80,75 @@ body{
  .reting p{
     line-height: 1.5;
  }
+ /*================ 
+ popular collceton style end
+  ============== */
+
+
+
+/*=============
+ footer style start
+  ============= */
+.end{
+      background-color: #0A0826;
+ }
+.information{
+    text-align: center;
+    padding: 50px 0px;
+}
+.title-footer{
+    font-size: 24px;
+    color: #fff;
+}
+.information h3{
+    color: #fff;
+    font-size: 14px;
+}
+.information p{
+    color: #fff;
+    font-size: 14px;
+}
+.icon{
+    margin-top: 10px;
+}
+.fa-instagram{
+    background-color:#636e72;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-top: 8px;
+}
+.fa-globe{
+    background-color:#636e72;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-top: 8px;
+    margin: 0 5px;
+}
+
+.fa-twitter{
+    background-color:#636e72;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-top: 8px;
+
+}
+.fa-youtube{
+    background-color:#636e72;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-top: 8px;
+    margin: 0 5px;
+
+}
