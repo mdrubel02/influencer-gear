@@ -88,6 +88,7 @@ body{
     width:80%;
     background-color: #dfe6e9;
     border-radius: 5px;
+    
 }
 
 /*================== banner section style end ======================= */
@@ -297,7 +298,5 @@ body{
     .section-title{
         font-size: 18px;
     }
-    .fa-instagram{
-        font-size: 15px;
-    }
+    
  }
