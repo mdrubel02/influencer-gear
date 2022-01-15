@@ -93,6 +93,12 @@ body{
 /*================== banner section style end ======================= */
 
 
+.all-brand{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+
 /*=========================
  popular Collcetion style start 
  ===================== */
@@ -168,6 +174,7 @@ body{
 }
 .customer p{
     text-align: justify;
+    padding: 10px 0px;
 }
 .customer h2{
     font-size: 24px;
@@ -238,4 +245,37 @@ body{
     margin: 0 5px;
 
 }
- 
+ @media only screen and  (max-width: 950px){
+     .popular-items{
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .section-title{
+         font-size: 40px;
+     }
+ }
+ @media only screen and  (max-width: 800px){
+    .popular-items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-title{
+        font-size: 26px;
+    }
+    .item{
+        text-align: center;
+        border-radius: 20px;
+        width: 536px;
+    }
+ }
+ @media only screen and  (max-width: 620px){
+    .banner{
+        grid-template-columns: 1fr;
+
+    }
+    .left{
+        order: 2;
+    }
+    .left h1{
+        font-size: 30px;
+        padding: 10px 0px;
+    }
+ }
