@@ -92,11 +92,15 @@ body{
 
 /*================== banner section style end ======================= */
 
-
+/*=============== brand logo style start ============== */
 .all-brand{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    padding: 30px 0px;
+
 }
+/*=============== brand logo style end ===================== */
+
 
 
 /*=========================
@@ -266,16 +270,34 @@ body{
         width: 536px;
     }
  }
- @media only screen and  (max-width: 620px){
+ @media only screen and  (max-width: 650px){
     .banner{
         grid-template-columns: 1fr;
-
+        grid-column-gap:20px;
+        
     }
     .left{
         order: 2;
+        align-items: center;
     }
     .left h1{
         font-size: 30px;
         padding: 10px 0px;
+    }
+    .left p{
+        font-size: 15px;
+    }
+    .container{
+        width: 90%;
+        margin: 0px;
+    }
+    .information p{
+        font-size: 8px;
+    }
+    .section-title{
+        font-size: 18px;
+    }
+    .fa-instagram{
+        font-size: 15px;
     }
  }
