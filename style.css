@@ -1,5 +1,7 @@
 /*================google font==============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+
 /* ==========common style=============*/
 *{
     padding: 0;
@@ -14,8 +16,40 @@ body{
     padding: 0 30px;
     margin-top: 10%;
     margin-bottom: 10%;
+    box-sizing: border-box;
 }
 /*=============header style start============ */
+
+/*=============== navigation style start =================== */
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    height: 80px;
+}
+.logo h1{
+    font-size: 26px;
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 35px;
+    color: rgb(34, 31, 31);
+}
+.fa-search{
+    font-size: 25px;
+    color: rgb(49, 38, 38);
+}
+.fa-shopping-cart{
+    font-size: 30px;
+    color: rgb(39, 31, 31);
+}
+
+/*============= banner section style start =========== */
 .banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,7 +61,7 @@ body{
 }
 .left h1{
     font-size: 50px;
-}
+}  
 .left p{
     line-height: 1.5;
     padding: 20px 0px;
@@ -52,10 +86,21 @@ body{
 }
 .right img{
     width:80%;
+    background-color: #dfe6e9;
+    border-radius: 5px;
 }
+
+/*================== banner section style end ======================= */
+
+
 /*=========================
  popular Collcetion style start 
  ===================== */
+ .popular-title{
+     font-size: 28px;
+     text-align: center;
+     padding: 30px 0px;
+ }
  .popular-items{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
@@ -81,6 +126,12 @@ body{
  }
  .reting p{
     line-height: 1.5;
+ }
+ .see-more{
+     color: #E02C6D;
+     font-size: 16px;
+     text-align: right;
+     padding: 50px 0px;
  }
  /*================ 
  popular collceton style end
@@ -187,3 +238,4 @@ body{
     margin: 0 5px;
 
 }
+ 
